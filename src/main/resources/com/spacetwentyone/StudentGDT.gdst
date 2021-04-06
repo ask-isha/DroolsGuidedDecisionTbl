@@ -180,12 +180,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="long">70</valueNumeric>
+        <valueNumeric class="long">0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueNumeric class="long">65</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_LONG</dataType>
         <isOtherwise>false</isOtherwise>
