@@ -6,12 +6,47 @@ package com;
 
 public class Student implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Student() {
-    }
+	@org.kie.api.definition.type.Label(value = "name")
+	private java.lang.String name;
+	@org.kie.api.definition.type.Label(value = "marks")
+	private java.lang.Long marks;
+	@org.kie.api.definition.type.Label(value = "grade")
+	private java.lang.String grade;
 
+	public Student() {
+	}
 
+	public java.lang.String getName() {
+		return this.name;
+	}
 
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public java.lang.Long getMarks() {
+		return this.marks;
+	}
+
+	public void setMarks(java.lang.Long marks) {
+		this.marks = marks;
+	}
+
+	public java.lang.String getGrade() {
+		return this.grade;
+	}
+
+	public void setGrade(java.lang.String grade) {
+		this.grade = grade;
+	}
+
+	public Student(java.lang.String name, java.lang.Long marks,
+			java.lang.String grade) {
+		this.name = name;
+		this.marks = marks;
+		this.grade = grade;
+	}
 
 }
